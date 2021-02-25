@@ -109,7 +109,7 @@ if (nota >= 90) {
     console.log('conceito F');
 }
 
-// 8 
+// 8 Verificar um numero par
 
 let alfa = 7;
 let beta = 2;
@@ -121,4 +121,51 @@ if (alfa % 2 == 0 || beta % 2 == 0 || gama % 2 == 0) {
     console.log('false')
 }
 
-// 9 
+// 9 Verificar numero impar 
+
+let omega = 12;
+let lambida= 8;
+let mi = 6;
+
+let imparTrio = (omega % 2 !== 0 || lambida % 2 !== 0 || mi % 2 !== 0 );
+
+// 10
+
+let valorEntrada = 30;
+let imposto = 1.2;
+let preco = 100;
+let lucro = (preco - (valorEntrada * imposto ));
+let lucroMilhar = (lucro * 1000);
+console.log(lucroMilhar);
+
+// 11
+
+let salarioBruto;
+let aliquotaInss;
+let aliquotaIr;
+
+switch (salarioBruto) {
+    case (salarioBruto >= 0  && salarioBruto <= 1556.94 ):
+        aliquotaInss = 0.92;
+        break;
+    case (salarioBruto >= 1556.95 && salarioBruto<= 2594.92):
+        aliquotaInss = 0.91;
+        break;
+    case (salarioBruto >= 2594.93 && salarioBruto <= 5189.82 ):
+        aliquotaInss = 0.89;
+        break;
+    case (salarioBruto > 5189.82):
+        aliquotaInss = 0.89;
+    default:
+        console.log('insira um valor válido');
+        break;
+}
+
+if (aliquotaInss = 0.89) {
+    descontoInss = 570.88;
+} else {
+    descontoInss = (aliquotaInss * salarioBruto)
+}
+
+
+let descontoInss = (aliquotaInss * salarioBruto)
