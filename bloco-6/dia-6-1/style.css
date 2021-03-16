@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#content {
+    width: 80%;
+    margin: 30px auto;
+    padding: 5%;
+    border: solid 5px red;
+}
+
+form input {
+    display: block;
+}
+
